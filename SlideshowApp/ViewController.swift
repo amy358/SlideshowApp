@@ -14,6 +14,7 @@ class ViewController: UIViewController {
     @IBAction func onTapImage(_ sender: Any) {
         //segueを使用して画面を遷移
         performSegue(withIdentifier: "result", sender: nil)
+        timer?.invalidate()
     }
     @IBAction func unwind(_ segue: UIStoryboardSegue){
     }

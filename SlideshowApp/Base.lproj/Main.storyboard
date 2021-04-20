@@ -16,8 +16,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Jsk-gW-Rwp">
-                                <rect key="frame" x="100" y="268" width="214" height="195"/>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Jsk-gW-Rwp">
+                                <rect key="frame" x="100" y="270" width="214" height="186"/>
                                 <gestureRecognizers/>
                                 <connections>
                                     <outletCollection property="gestureRecognizers" destination="yfC-Yg-VSn" appends="YES" id="9Bq-hv-uYP"/>
@@ -51,14 +51,15 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="Jsk-gW-Rwp" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="0RE-lR-wq3"/>
                             <constraint firstItem="QmI-JE-09D" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="3r0-YG-Ics"/>
                             <constraint firstItem="nu4-iM-w8Y" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="4Hb-mH-34T"/>
                             <constraint firstItem="Jsk-gW-Rwp" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Dz8-qh-cU1"/>
                             <constraint firstItem="Jsk-gW-Rwp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="100" id="Sw7-fS-8Sv"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="0H4-Kr-ewv" secondAttribute="bottom" constant="200" id="Zo4-aG-YJr"/>
+                            <constraint firstItem="Jsk-gW-Rwp" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="270" id="rED-Kc-jqB"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="0H4-Kr-ewv" secondAttribute="trailing" constant="20" id="snx-4H-M6X"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Jsk-gW-Rwp" secondAttribute="trailing" constant="100" id="tys-EW-n5c"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Jsk-gW-Rwp" secondAttribute="bottom" constant="280" id="vAW-Ha-QwL"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="QmI-JE-09D" secondAttribute="bottom" constant="200" id="wGn-K1-7dU"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="nu4-iM-w8Y" secondAttribute="bottom" constant="200" id="xlR-Ao-jVh"/>
                         </constraints>
