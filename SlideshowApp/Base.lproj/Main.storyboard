@@ -66,6 +66,7 @@
                     </view>
                     <connections>
                         <outlet property="ImageView" destination="Jsk-gW-Rwp" id="Mdo-KN-Jb1"/>
+                        <outlet property="startStopBtn" destination="0H4-Kr-ewv" id="vTo-A7-5oq"/>
                         <outlet property="theBackButton" destination="QmI-JE-09D" id="YcB-M3-jGv"/>
                         <outlet property="theNextButton" destination="nu4-iM-w8Y" id="57e-wm-1UA"/>
                         <segue destination="AFh-PT-Sva" kind="show" identifier="result" id="NN8-uR-WuX"/>
@@ -93,7 +94,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <state key="normal" title="戻る"/>
                                 <connections>
-                                    <segue destination="CtR-mI-EZa" kind="unwind" unwindAction="unwind:" id="aul-j4-3UQ"/>
+                                    <segue destination="CtR-mI-EZa" kind="unwind" unwindAction="unwind:" id="HWH-I2-Ign"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="A0X-qO-N9N">

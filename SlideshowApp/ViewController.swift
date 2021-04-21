@@ -11,10 +11,18 @@ class ViewController: UIViewController {
     @IBOutlet weak var ImageView: UIImageView!
     @IBOutlet weak var theNextButton: UIButton!
     @IBOutlet weak var theBackButton: UIButton!
+    @IBOutlet weak var startStopBtn: UIButton!
     @IBAction func onTapImage(_ sender: Any) {
         //segueを使用して画面を遷移
         performSegue(withIdentifier: "result", sender: nil)
-        timer?.invalidate()
+        //画面遷移後、再生停止ボタンの表示を「再生」にする
+        if self.timer != nil{
+            startStopBtn.setTitle("再生", for: UIControl.State.normal)
+            timer!.invalidate()
+            timer = nil
+            theNextButton.isEnabled = true
+            theBackButton.isEnabled = true
+        }
     }
     @IBAction func unwind(_ segue: UIStoryboardSegue){
     }
